@@ -1,0 +1,44 @@
+ .card-body{
+   padding: 1.25rem 0!important;
+ }
+
+input::placeholder, textarea::placeholder{
+  font-size: 12px;
+}
+
+/* // */
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  padding: 2px 28px;
+  border-radius: 6px;
+
+}
+.fileUpload:hover span{
+  color: #fff!important;  
+}
+
+.fileUpload span {
+  font-size: 13px;
+  color: #007BFF;
+  line-height: 25px;
+}
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#uploadFile {
+  display: block;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background: transparent;
+}
